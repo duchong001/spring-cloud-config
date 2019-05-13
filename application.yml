@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: 
+    - dev
+
+---
+
+spring:
+  application:
+    name: rest-provider-test
+  profiles: test
+  
+---
+
+spring:
+  application:
+    name: rest-provider-dev
+  profiles: dev
+
+#UTF-8 格式保存
